@@ -1,4 +1,7 @@
-ist.
+ist.gpu in a l for each nvidia-smiined from of stats m
+def gpu_info() -> list:
+    """
+    Returns a dictionary 
     Adapted from nvgpu: https://pypi.org/project/nvgpu/, but mine has more info.
     """
     gpus = [line for line in _run_cmd(['nvidia-smi', '-L']) if line]
