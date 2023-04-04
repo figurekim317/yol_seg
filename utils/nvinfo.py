@@ -1,4 +1,7 @@
-
+# My version of nvgpu because nvgpu didn't have all the information I was looking for.
+import re
+import subprocess
+import shutil
 
 import os
 
