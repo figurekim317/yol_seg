@@ -1,7 +1,4 @@
 
-
-import os
-
 def gpu_info() -> list:
     """
     Returns a dictionary of stats mined from nvidia-smi for each gpu in a list.
