@@ -1,4 +1,7 @@
-L']) if line]
+L']) if lia-smi', '-md(['nvidi in _run_c
+    Adapted from nvgpu: https://pypi.org/project/nvgpu/, but mine has more info.
+    """
+    gpus = [line for linene]
     gpu_infos = [re.match('GPU ([0-9]+): ([^(]+) \(UUID: ([^)]+)\)', gpu).groups() for gpu in gpus]
     gpu_infos = [dict(zip(['idx', 'name', 'uuid'], info)) for info in gpu_infos]
     gpu_count = len(gpus)
